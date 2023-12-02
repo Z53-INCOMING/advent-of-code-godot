@@ -31,7 +31,7 @@ func get_calories(input_filename: String) -> Array:
 		calories.append(elf_calories)
 	
 	return calories
-	
+
 func get_input_string(input_filename: String) -> String:
 	var path = input_dir + "/" + input_filename
 	print("Parsing %s" % path)
